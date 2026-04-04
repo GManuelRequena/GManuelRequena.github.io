@@ -692,6 +692,59 @@ body {
   margin-top: 2px;
 }
 
+/* ==================== CERTIFICATIONS ==================== */
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--gray-100);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow .2s, transform .15s;
+}
+
+.cert-item:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.cert-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.cert-info {
+  flex: 1;
+}
+
+.cert-name {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.cert-source {
+  font-size: 0.78rem;
+  color: var(--gray-400);
+  margin-top: 2px;
+}
+
+.cert-link {
+  font-size: 0.82rem;
+  color: var(--primary);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 900px) {
   .hero-inner {
