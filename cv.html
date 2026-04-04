@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuel Requena — Software Engineer</title>
+  <meta name="description" content="Software Engineer at MercadoLibre. Backend developer with experience at GE and P&G. Go, Java, Python, SQL.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="cv.html" class="nav-logo">Manuel Requena</a>
+    <div class="nav-right">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#experiencia" data-i18n="nav_exp">Experiencia</a></li>
+        <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+        <li><a href="#educacion" data-i18n="nav_education">Educación</a></li>
+        <li><a href="index.html" data-i18n="nav_landing">← Servicios web</a></li>
+      </ul>
+      <button class="lang-toggle" id="lang-toggle">EN</button>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="cv-hero">
+    <div class="cv-hero-inner">
+      <div class="cv-hero-photo">
+        <img src="images/FotoCV.png" alt="Manuel Requena">
+      </div>
+      <div class="cv-hero-text">
+        <p class="cv-hero-label" data-i18n="hero_label">Software Engineer</p>
+        <h1 class="cv-hero-name">Manuel Requena</h1>
+        <p class="cv-hero-company" data-i18n="hero_company">@ MercadoLibre</p>
+        <p class="cv-hero-tagline" data-i18n="hero_tagline">
+          Backend developer con experiencia en empresas globales. Apasionado por resolver problemas complejos con código limpio.
+        </p>
+        <div class="cv-hero-stack">
+          <span class="stack-badge">Go</span>
+          <span class="stack-badge">Java</span>
+          <span class="stack-badge">Python</span>
+          <span class="stack-badge">SQL</span>
+          <span class="stack-badge">Spring Boot</span>
+          <span class="stack-badge">Docker</span>
+          <span class="stack-badge">JUnit</span>
+        </div>
+        <div class="cv-hero-links">
+          <a href="https://www.linkedin.com/in/guillermomanuelrequena/" target="_blank" class="btn btn-outline" data-i18n="hero_linkedin">LinkedIn</a>
+          <a href="https://github.com/GManuelRequena" target="_blank" class="btn btn-outline" data-i18n="hero_github">GitHub</a>
+          <a href="resources/CV Guillermo Manuel Requena 2023.pdf" target="_blank" class="btn btn-primary" data-i18n="hero_download">Descargar CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section class="cv-section" id="experiencia">
+    <div class="cv-section-inner">
+      <h2 class="section-title" data-i18n="exp_title">Experiencia</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-company">MercadoLibre</div>
+          <div class="timeline-role" data-i18n="exp_ml_role">Software Engineer — Backend</div>
+          <div class="timeline-date" data-i18n="exp_ml_date">Sep 2024 – Presente · Argentina</div>
+          <p class="timeline-desc" data-i18n="exp_ml_desc">
+            Backend developer en una de las empresas de tecnología más grandes de Latinoamérica.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-company">Procter &amp; Gamble</div>
+          <div class="timeline-role" data-i18n="exp_pg_role">Especialista IT &amp; QA Tester</div>
+          <div class="timeline-date" data-i18n="exp_pg_date">Feb 2024 – Sep 2024 · Villa Mercedes, San Luis</div>
+          <p class="timeline-desc" data-i18n="exp_pg_desc">
+            Soporte IT en planta y QA testing de APIs para sistemas MES. Desarrollo y ejecución de test suites con Postman. Refinamiento de stored procedures para compatibilidad con nueva versión de plataforma MES.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-company">Arido Software</div>
+          <div class="timeline-role" data-i18n="exp_arido_role">Software Developer</div>
+          <div class="timeline-date" data-i18n="exp_arido_date">Feb 2022 – Sep 2024 · Argentina</div>
+          <p class="timeline-desc" data-i18n="exp_arido_desc">
+            Desarrollo backend para modernizar aplicación MES de General Electric, en coordinación con 12 equipos a nivel global. Luego de la fase de desarrollo, pasé a rol QA para el mismo sistema.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-company">General Electric (GE)</div>
+          <div class="timeline-role" data-i18n="exp_ge_role">Backend Developer</div>
+          <div class="timeline-date" data-i18n="exp_ge_date">Feb 2022 – Feb 2024 · Estados Unidos (remoto)</div>
+          <p class="timeline-desc" data-i18n="exp_ge_desc">
+            Desarrollo de nueva versión de sistema MES crítico con Java 8, SQL Server, Docker, JUnit e integration tests. Lideré el desarrollo de la suite de tests de integración que se volvió base para la interoperabilidad entre 12 equipos globales.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-company">Universo Digital</div>
+          <div class="timeline-role" data-i18n="exp_ud_role">Propietario &amp; Técnico</div>
+          <div class="timeline-date" data-i18n="exp_ud_date">Ene 2019 – Feb 2022 · Villa Mercedes, San Luis</div>
+          <p class="timeline-desc" data-i18n="exp_ud_desc">
+            Gestión y operación de local de reparación y venta de equipos tecnológicos.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="cv-section cv-section-alt" id="skills">
+    <div class="cv-section-inner">
+      <h2 class="section-title" data-i18n="skills_title">Skills</h2>
+      <div class="skills-groups">
+
+        <div>
+          <div class="skills-group-title" data-i18n="skills_backend">Backend</div>
+          <div class="skills-tags">
+            <span class="skill-tag">Go</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">JUnit</span>
+            <span class="skill-tag">JPA</span>
+            <span class="skill-tag">Swagger</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">.NET</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="skills-group-title" data-i18n="skills_frontend">Frontend &amp; Web</div>
+          <div class="skills-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="skills-group-title" data-i18n="skills_tools">Tools &amp; DevOps</div>
+          <div class="skills-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">Integration Tests</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="skills-group-title" data-i18n="skills_freelance">Freelance Stack</div>
+          <div class="skills-tags">
+            <span class="skill-tag">Netlify</span>
+            <span class="skill-tag">Netlify Functions</span>
+            <span class="skill-tag">Brevo</span>
+            <span class="skill-tag">Formspree</span>
+            <span class="skill-tag">GitHub Pages</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="cv-section" id="educacion">
+    <div class="cv-section-inner">
+      <h2 class="section-title" data-i18n="edu_title">Educación</h2>
+      <div class="edu-list">
+
+        <div class="edu-item">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-school">Teclab Instituto Técnico Superior</div>
+            <div class="edu-degree" data-i18n="edu_teclab_degree">Técnico Superior en Programación</div>
+            <div class="edu-date">2024 – 2026</div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-school">Globant University</div>
+            <div class="edu-degree" data-i18n="edu_globant_degree">Java Fullstack</div>
+            <div class="edu-date">2023 – 2024</div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-school">Colegio Universitario IES</div>
+            <div class="edu-degree" data-i18n="edu_ies_degree">Analista de Sistemas</div>
+            <div class="edu-date">2023</div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-icon">📚</div>
+          <div>
+            <div class="edu-school">EducacionIT</div>
+            <div class="edu-degree" data-i18n="edu_eit_degree">Backend Developer — Java Backend</div>
+            <div class="edu-date">2021 – 2022</div>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-icon">📚</div>
+          <div>
+            <div class="edu-school">UTN FRBA — Centro de e-Learning</div>
+            <div class="edu-degree" data-i18n="edu_utn_degree">Diplomatura en Python (3 niveles)</div>
+            <div class="edu-date">2021</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="index.html" class="footer-link" data-i18n="footer_services">¿Buscás un sitio web? → Ver mis servicios</a>
+    <span class="footer-copy" data-i18n="footer_copy">© 2025 Manuel Requena</span>
+  </footer>
+
+  <script>
+    window.LANG = {
+      es: {
+        nav_exp:            "Experiencia",
+        nav_skills:         "Skills",
+        nav_education:      "Educación",
+        nav_landing:        "← Servicios web",
+        hero_label:         "Software Engineer",
+        hero_company:       "@ MercadoLibre",
+        hero_tagline:       "Backend developer con experiencia en empresas globales. Apasionado por resolver problemas complejos con código limpio.",
+        hero_linkedin:      "LinkedIn",
+        hero_github:        "GitHub",
+        hero_download:      "Descargar CV",
+        exp_title:          "Experiencia",
+        exp_ml_role:        "Software Engineer — Backend",
+        exp_ml_date:        "Sep 2024 – Presente · Argentina",
+        exp_ml_desc:        "Backend developer en una de las empresas de tecnología más grandes de Latinoamérica.",
+        exp_pg_role:        "Especialista IT &amp; QA Tester",
+        exp_pg_date:        "Feb 2024 – Sep 2024 · Villa Mercedes, San Luis",
+        exp_pg_desc:        "Soporte IT en planta y QA testing de APIs para sistemas MES. Desarrollo y ejecución de test suites con Postman. Refinamiento de stored procedures para compatibilidad con nueva versión de plataforma MES.",
+        exp_arido_role:     "Software Developer",
+        exp_arido_date:     "Feb 2022 – Sep 2024 · Argentina",
+        exp_arido_desc:     "Desarrollo backend para modernizar aplicación MES de General Electric, en coordinación con 12 equipos a nivel global. Luego de la fase de desarrollo, pasé a rol QA para el mismo sistema.",
+        exp_ge_role:        "Backend Developer",
+        exp_ge_date:        "Feb 2022 – Feb 2024 · Estados Unidos (remoto)",
+        exp_ge_desc:        "Desarrollo de nueva versión de sistema MES crítico con Java 8, SQL Server, Docker, JUnit e integration tests. Lideré el desarrollo de la suite de tests de integración que se volvió base para la interoperabilidad entre 12 equipos globales.",
+        exp_ud_role:        "Propietario &amp; Técnico",
+        exp_ud_date:        "Ene 2019 – Feb 2022 · Villa Mercedes, San Luis",
+        exp_ud_desc:        "Gestión y operación de local de reparación y venta de equipos tecnológicos.",
+        skills_title:       "Skills",
+        skills_backend:     "Backend",
+        skills_frontend:    "Frontend &amp; Web",
+        skills_tools:       "Tools &amp; DevOps",
+        skills_freelance:   "Freelance Stack",
+        edu_title:          "Educación",
+        edu_teclab_degree:  "Técnico Superior en Programación",
+        edu_globant_degree: "Java Fullstack",
+        edu_ies_degree:     "Analista de Sistemas",
+        edu_eit_degree:     "Backend Developer — Java Backend",
+        edu_utn_degree:     "Diplomatura en Python (3 niveles)",
+        footer_services:    "¿Buscás un sitio web? → Ver mis servicios",
+        footer_copy:        "© 2025 Manuel Requena",
+      },
+      en: {
+        nav_exp:            "Experience",
+        nav_skills:         "Skills",
+        nav_education:      "Education",
+        nav_landing:        "← Web services",
+        hero_label:         "Software Engineer",
+        hero_company:       "@ MercadoLibre",
+        hero_tagline:       "Backend developer with experience at global companies. Passionate about solving complex problems with clean code.",
+        hero_linkedin:      "LinkedIn",
+        hero_github:        "GitHub",
+        hero_download:      "Download CV",
+        exp_title:          "Experience",
+        exp_ml_role:        "Software Engineer — Backend",
+        exp_ml_date:        "Sep 2024 – Present · Argentina",
+        exp_ml_desc:        "Backend developer at one of the largest technology companies in Latin America.",
+        exp_pg_role:        "IT Specialist &amp; QA Tester",
+        exp_pg_date:        "Feb 2024 – Sep 2024 · Villa Mercedes, San Luis",
+        exp_pg_desc:        "IT support at manufacturing plant and API QA testing for MES systems. Built and executed test suites with Postman. Refined stored procedures for compatibility with new MES platform version.",
+        exp_arido_role:     "Software Developer",
+        exp_arido_date:     "Feb 2022 – Sep 2024 · Argentina",
+        exp_arido_desc:     "Backend development to modernize a General Electric MES application, coordinated with 12 teams globally. After the development phase, moved to QA role for the same system.",
+        exp_ge_role:        "Backend Developer",
+        exp_ge_date:        "Feb 2022 – Feb 2024 · United States (remote)",
+        exp_ge_desc:        "Developed a new version of a critical MES system using Java 8, SQL Server, Docker, JUnit and integration tests. Led development of the integration test suite that became the foundation for interoperability across 12 global teams.",
+        exp_ud_role:        "Owner &amp; Technician",
+        exp_ud_date:        "Jan 2019 – Feb 2022 · Villa Mercedes, San Luis",
+        exp_ud_desc:        "Management and operation of a tech repair and sales shop.",
+        skills_title:       "Skills",
+        skills_backend:     "Backend",
+        skills_frontend:    "Frontend &amp; Web",
+        skills_tools:       "Tools &amp; DevOps",
+        skills_freelance:   "Freelance Stack",
+        edu_title:          "Education",
+        edu_teclab_degree:  "Advanced Technical Degree in Programming",
+        edu_globant_degree: "Java Fullstack",
+        edu_ies_degree:     "Systems Analyst",
+        edu_eit_degree:     "Backend Developer — Java Backend",
+        edu_utn_degree:     "Python Diploma (3 levels)",
+        footer_services:    "Looking for a website? → See my services",
+        footer_copy:        "© 2025 Manuel Requena",
+      }
+    };
+  </script>
+  <script src="js/i18n.js"></script>
+
+</body>
+</html>
