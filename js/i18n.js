@@ -8,6 +8,11 @@
       if (t[key] !== undefined) el.innerHTML = t[key];
     });
 
+    document.querySelectorAll('[data-i18n-href]').forEach(function (el) {
+      var key = el.getAttribute('data-i18n-href');
+      if (t[key] !== undefined) el.href = t[key];
+    });
+
     localStorage.setItem('lang', lang);
     document.documentElement.lang = lang;
 
